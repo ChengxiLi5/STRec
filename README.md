@@ -8,7 +8,7 @@ You can implement our model according to the following steps:
 
 2. Install the RecBole package using 'pip install recbole'.
 
-3. Run the python file 'STRec.py' to implement our framework on ML-20M. A well-trained model is provided for ML-20M, you can  test the speed of it with the default 'STRec.yaml'. For the other datasets, you can change the config file to 'Go.yaml' for Gowalla and 'ame.yaml' for Amazon-Electronics.
+3. Run the python file 'STRec.py' to implement our framework on ML-20M. A well-trained model is provided for ML-20M, you can  test the speed of it with the default 'STRec.yaml'. For the other datasets, you can change the config file to 'Go.yaml' for Gowalla and 'ame.yaml' for Amazon-Electronics. Note that the downloading of dataset in the first running may raise error, and you need to run the python file again after downloading.
 
 4. Change the 'mode' option in the config file for different stages.
     'pre_train' for pre-training stage.
