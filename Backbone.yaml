@@ -33,7 +33,7 @@ eval_args: {'split': {'RS': [0.8,0.2,0.1]}, 'order': 'TO', 'mode': 'full', 'grou
 stopping_step: 3
 eval_step: 3
 
-mode: 'speed'
+mode: 'train'
 load_dir: 'saved/Backbone.pth'
 epochs: 500
 pre_file: 'saved/.pth'
