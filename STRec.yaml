@@ -37,4 +37,4 @@ mode: 'speed'
 load_dir: 'saved/STRec.pth'
 epochs: 500
 pre_file: 'saved/.pth'
-hash: 'True'
+hash: 'False'
