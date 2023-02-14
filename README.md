@@ -17,7 +17,7 @@ You can implement our model according to the following steps:
     'test' for evaluate on the test set.
     After the training stages, you need to set the direction of the '.pth' file of the models in the config file. And you need to set 'uni20' to replace 'full' in 'eval_args' for evaluating negative sampling.
    
-5. Change the 'hash' option to 'True' in the config file for replacing the FFN with a hash function. The hash function should be defined manually, and we define one for ML-20M.
+5. Change the 'hash' option to 'True' in the config file for replacing the FFN with a hash function. The hash function should be defined manually based on the output of the MLP, and we define one for ML-20M.
 
-6. We also provide a baseline backbone model for comparison, use the 'Backbone.yaml' config file for running
+6. We also provide a baseline backbone model for comparison, use the 'Backbone.py' and 'Backbone.yaml' config file for running. You should first train a backbone model to test the speed of the backbone model (the initial parameters are enough for speed test). 
 
